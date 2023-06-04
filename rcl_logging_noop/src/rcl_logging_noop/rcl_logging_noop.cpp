@@ -24,7 +24,7 @@ rcl_logging_ret_t rcl_logging_external_initialize(
   return RCL_LOGGING_RET_OK;
 }
 
-rcl_logging_ret_t rcl_logging_external_shutdown()
+rcl_logging_ret_t rcl_logging_external_shutdown(void)
 {
   return RCL_LOGGING_RET_OK;
 }
